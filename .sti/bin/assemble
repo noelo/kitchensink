@@ -1,5 +1,5 @@
 #!/bin/sh -x
-ls -altR
+ls -altR /tmp/
 
 . $(dirname $0)/common.sh
 
