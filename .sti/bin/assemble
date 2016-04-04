@@ -1,8 +1,6 @@
 #!/bin/sh
 . $(dirname $0)/common.sh
 
-ls -altr
-
 CONTENT="<proxies>
     <proxy>
       <id>myproxy</id>
