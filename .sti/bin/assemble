@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/sh -X
+ls -altR
+
 . $(dirname $0)/common.sh
 
 CONTENT="<proxies>
