@@ -64,7 +64,7 @@ if [ -f "$LOCAL_SOURCE_DIR/pom.xml" ]; then
   copy_artifacts "$ARTIFACT_DIR"
 
   # clean up after maven
-  mvn clean
+  mvn -e $MAVEN_ARGS clean
  # if [ -d "$HOME/.m2/repository" ]; then
   #  rm -r "$HOME/.m2/repository"
   #fi
