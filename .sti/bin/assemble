@@ -1,4 +1,4 @@
-#!/bin/sh -X
+#!/bin/sh -x
 ls -altR
 
 . $(dirname $0)/common.sh
