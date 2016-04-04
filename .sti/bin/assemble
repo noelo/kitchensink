@@ -1,5 +1,4 @@
-#!/bin/sh -x
-ls -altR /tmp/
+#!/bin/sh
 
 . /tmp/src/.sti/bin/common.sh
 
